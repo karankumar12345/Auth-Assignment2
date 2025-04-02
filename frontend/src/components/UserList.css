@@ -1,0 +1,48 @@
+/* Center the user list */
+.user-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Loading & Error messages */
+  .loading,
+  .error {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* User list styling */
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Individual user item */
+  .user-item {
+    background: #f3f4f6;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  /* Hover effect */
+  .user-item:hover {
+    background: #e0e7ff;
+    color: #3b82f6;
+  }
+  
